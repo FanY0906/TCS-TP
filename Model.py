@@ -242,7 +242,7 @@ class Position_wise_Feed_Forward(nn.Module):
         out = F.relu(out)
         out = self.fc2(out)
         out = self.dropout(out)
-        out = out + x  # 残差连接
+        out = out + x 
         out = self.layer_norm(out)
         return out
 
