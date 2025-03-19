@@ -256,7 +256,7 @@ classifier = joblib.load("svm.m")
 total_valid_accuracy = 0
 total_valid_loss = 0
 
-i = 0
+
 k = 0
 label = []
 start_time = time.time()
